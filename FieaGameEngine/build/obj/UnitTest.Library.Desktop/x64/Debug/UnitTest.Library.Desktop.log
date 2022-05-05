@@ -1,0 +1,20 @@
+﻿  AttributedFoo.cpp
+  AttributedFooTest.cpp
+  Avatar.cpp
+  DatumTest.cpp
+  DefaultHashTest.cpp
+  DerivedAttributedFoo.cpp
+  FactoryTest.cpp
+  Foo.cpp
+  FooTests.cpp
+  GameObjectTest.cpp
+  HashMapTest.cpp
+  JsonParseHelperInt.cpp
+  ParseMasterTest.cpp
+  SListTest.cpp
+  ScopeTest.cpp
+  TableParserTest.cpp
+  VectorTest.cpp
+  Generating Code...
+     Creating library C:\Dev\depot\Cohort18-Private\Prog2Final\UndefinedBehavior\FieaGameEngine\build\bin\UnitTest.Library.Desktop\x64\Debug\UnitTest.Library.Desktop.lib and object C:\Dev\depot\Cohort18-Private\Prog2Final\UndefinedBehavior\FieaGameEngine\build\bin\UnitTest.Library.Desktop\x64\Debug\UnitTest.Library.Desktop.exp
+  UnitTest.Library.Desktop.vcxproj -> C:\Dev\depot\Cohort18-Private\Prog2Final\UndefinedBehavior\FieaGameEngine\build\bin\UnitTest.Library.Desktop\x64\Debug\UnitTest.Library.Desktop.dll

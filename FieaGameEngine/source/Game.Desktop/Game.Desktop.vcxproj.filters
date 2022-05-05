@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Program.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="ISpriteRenderer.cpp">
+      <Filter>ExtendedClasses\Sprites</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>ExtendedClasses\Tile System\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="DefaultTile.cpp">
+      <Filter>ExtendedClasses\Tile System\Default Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>ExtendedClasses\Tile System\Tile Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TileWrapper.cpp">
+      <Filter>ExtendedClasses\Tile System\Tile Wrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="BombTile.cpp">
+      <Filter>ExtendedClasses\Tile System\Bomb Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="FireTile.cpp">
+      <Filter>ExtendedClasses\Tile System\Fire Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>ExtendedClasses\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="UnbreakableWallTile.cpp">
+      <Filter>ExtendedClasses\Tile System\Unbreakable Wall Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="BreakableWallTile.cpp">
+      <Filter>ExtendedClasses\Tile System\Breakable Wall Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="WarningTile.cpp">
+      <Filter>ExtendedClasses\Tile System\WarningTile</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="ISpriteRenderer.h">
+      <Filter>ExtendedClasses\Sprites</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>ExtendedClasses\Tile System\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="DefaultTile.h">
+      <Filter>ExtendedClasses\Tile System\Default Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>ExtendedClasses\Tile System\Tile Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TileWrapper.h">
+      <Filter>ExtendedClasses\Tile System\Tile Wrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="EventStructs.h">
+      <Filter>ExtendedClasses\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="BombTile.h">
+      <Filter>ExtendedClasses\Tile System\Bomb Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="FireTile.h">
+      <Filter>ExtendedClasses\Tile System\Fire Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>ExtendedClasses\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="UnbreakableWallTile.h">
+      <Filter>ExtendedClasses\Tile System\Unbreakable Wall Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="BreakableWallTile.h">
+      <Filter>ExtendedClasses\Tile System\Breakable Wall Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="WarningTile.h">
+      <Filter>ExtendedClasses\Tile System\WarningTile</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="ExtendedClasses">
+      <UniqueIdentifier>{d81cfb34-0d65-4445-9f1b-df5293a61acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendedClasses\Sprites">
+      <UniqueIdentifier>{681f2c48-ec0c-4f0c-8e2a-caccebc64dc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Art">
+      <UniqueIdentifier>{85653588-c9b3-4b1c-86d4-5103cc8cc939}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendedClasses\Tile System">
+      <UniqueIdentifier>{d0082e78-ec94-491a-a842-1b7c3bb88a7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendedClasses\Tile System\Tile">
+      <UniqueIdentifier>{f282f62f-29cb-4020-a6a4-f6a080d387c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendedClasses\Tile System\Default Tile">
+      <UniqueIdentifier>{c9c1b107-25d6-4853-9886-f8c1ec18d06a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendedClasses\Tile System\Tile Manager">
+      <UniqueIdentifier>{b8c7bd31-13da-4c79-b412-bba600eee906}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendedClasses\Tile System\Tile Wrapper">
+      <UniqueIdentifier>{7031f1b6-993b-45d7-b7ef-9023a6e04eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendedClasses\Tile System\Bomb Tile">
+      <UniqueIdentifier>{45a4439d-a23a-46d7-b9df-a2b39c1c32e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendedClasses\Tile System\Fire Tile">
+      <UniqueIdentifier>{9e49981b-40bc-4c3f-8a84-58d9b9ac9c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendedClasses\Events">
+      <UniqueIdentifier>{72743ee9-b3d9-42f0-8767-8e03e2730ae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendedClasses\Tile System\Unbreakable Wall Tile">
+      <UniqueIdentifier>{df06beb1-2ce7-473c-bf86-97c6368cd292}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendedClasses\Tile System\Breakable Wall Tile">
+      <UniqueIdentifier>{22c8672c-b02c-4c5a-ba18-742aa26da784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendedClasses\Player">
+      <UniqueIdentifier>{7f17788a-8683-4709-ac03-5b8a0b41b847}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ExtendedClasses\Tile System\WarningTile">
+      <UniqueIdentifier>{70d5b0e7-4aed-4e0c-8309-2d00163cf60f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{78a5e59a-aa28-47eb-93ac-923276318f2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sounds">
+      <UniqueIdentifier>{2c5208f0-847f-4d8c-8923-871cc4f38254}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <CopyFileToFolders Include="..\..\art\paulbombermansprites.png">
+      <Filter>Art</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\art\spritesheet.png">
+      <Filter>Art</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\art\TestGridTile.jpg">
+      <Filter>Art</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\art\bomb_tile.png">
+      <Filter>Art</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\art\breakable_tile.png">
+      <Filter>Art</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\art\default_tile.png">
+      <Filter>Art</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\art\fire_tile.png">
+      <Filter>Art</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\art\unbreakable_tile.png">
+      <Filter>Art</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="map.json" />
+    <CopyFileToFolders Include="..\..\art\spritesheetPlayer2.png">
+      <Filter>Art</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\art\warning_tile.png">
+      <Filter>Art</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\art\start_screen.png">
+      <Filter>Art</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\art\raccoon_win_screen.png">
+      <Filter>Art</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\art\paul_win_screen.png">
+      <Filter>Art</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\sounds\bgmusic.wav">
+      <Filter>Sounds</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\sounds\bombexplode.wav">
+      <Filter>Sounds</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\sounds\intro.wav">
+      <Filter>Sounds</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\sounds\paul_bombdrop.wav">
+      <Filter>Sounds</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\sounds\paul_death.wav">
+      <Filter>Sounds</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\sounds\raccoon_bombdrop.wav">
+      <Filter>Sounds</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\sounds\raccoon_death.wav">
+      <Filter>Sounds</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\sounds\random_1.wav">
+      <Filter>Sounds</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\sounds\random_2.wav">
+      <Filter>Sounds</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\sounds\random_3.wav">
+      <Filter>Sounds</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\sounds\random_4.wav">
+      <Filter>Sounds</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\sounds\random_5.wav">
+      <Filter>Sounds</Filter>
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="..\..\sounds\random_6.wav">
+      <Filter>Sounds</Filter>
+    </CopyFileToFolders>
+  </ItemGroup>
+</Project>

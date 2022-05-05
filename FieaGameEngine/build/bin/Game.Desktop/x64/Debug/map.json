@@ -1,0 +1,72 @@
+{
+  "MAP": {
+    "type": "string",
+    "value": [ "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile",
+              "UnbreakableWallTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "UnbreakableWallTile",
+              "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "DefaultTile", "UnbreakableWallTile", "DefaultTile", "UnbreakableWallTile", "DefaultTile", "UnbreakableWallTile", "DefaultTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile",
+              "UnbreakableWallTile", "BreakableWallTile", "DefaultTile", "DefaultTile", "DefaultTile", "BreakableWallTile", "DefaultTile", "BreakableWallTile", "DefaultTile", "BreakableWallTile", "DefaultTile", "BreakableWallTile", "DefaultTile", "BreakableWallTile", "UnbreakableWallTile",
+              "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "DefaultTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile",
+              "UnbreakableWallTile", "BreakableWallTile", "DefaultTile", "DefaultTile", "DefaultTile", "BreakableWallTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "BreakableWallTile", "UnbreakableWallTile",
+              "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "DefaultTile", "UnbreakableWallTile", "DefaultTile", "UnbreakableWallTile", "DefaultTile", "UnbreakableWallTile", "DefaultTile", "UnbreakableWallTile", "DefaultTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile",
+              "UnbreakableWallTile", "BreakableWallTile", "DefaultTile", "BreakableWallTile", "DefaultTile", "BreakableWallTile", "DefaultTile", "BreakableWallTile", "DefaultTile", "BreakableWallTile", "DefaultTile", "BreakableWallTile", "DefaultTile", "BreakableWallTile", "UnbreakableWallTile",      
+              "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "DefaultTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile",
+              "UnbreakableWallTile", "BreakableWallTile", "DefaultTile", "DefaultTile", "DefaultTile", "BreakableWallTile", "DefaultTile", "BreakableWallTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "BreakableWallTile", "UnbreakableWallTile",
+              "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "DefaultTile", "UnbreakableWallTile", "DefaultTile", "UnbreakableWallTile", "DefaultTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile", "BreakableWallTile", "UnbreakableWallTile",
+              "UnbreakableWallTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "DefaultTile", "UnbreakableWallTile",
+              "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile", "UnbreakableWallTile"
+    ]
+  },
+  "Children": {
+    "type": "table",
+    "value": [
+      {
+        "PLAYERONE": {
+          "type": "table",
+          "class": "Player",
+          "value": {
+            "Name": {
+              "type": "string",
+              "value": "Paul"
+            },
+            "Position": {
+              "type": "vec4",
+              "value": "108 108 0 0"
+            },
+            "Direction": {
+              "type": "integer",
+              "value": 0
+            },
+            "Speed": {
+              "type": "float",
+              "value": 500
+            }
+          }
+        }
+      },
+      {
+        "PLAYERTWO": {
+          "type": "table",
+          "class": "Player",
+          "value": {
+            "Name": {
+              "type": "string",
+              "value": "Racoon"
+            },
+            "Position": {
+              "type": "vec4",
+              "value": "972 828 0 0"
+            },
+            "Direction": {
+              "type": "integer",
+              "value": 0
+            },
+            "Speed": {
+              "type": "float",
+              "value": 500
+            }
+          }
+        }
+      }
+    ]
+  }
+}

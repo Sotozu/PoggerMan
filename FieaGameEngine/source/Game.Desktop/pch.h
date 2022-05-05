@@ -1,0 +1,17 @@
+#pragma once
+#include <cstdint>
+#include <cstddef>
+#include <stdexcept>
+#include <cassert>
+#include <functional>
+#include <utility>
+#include <string>
+#include <fstream>
+#include <algorithm>
+#include <chrono>
+#include <memory>
+#include "SDL2/SDL.h"
+#include "SDL2/SDL_image.h"
+#include "SDL2/SDL_mixer.h"
+#include "SDL2/SDL_ttf.h"
+#include "SDL2/SDL_keyboard.h"
